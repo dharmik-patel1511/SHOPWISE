@@ -24,9 +24,9 @@ This project uses the **UCI Online Shoppers Purchasing Intention Dataset (ID 468
 
 ## Deliverables
 
-1. `shopwise_analysis.py` — single executable project code file.
+1. `DharmikPatel_SHOPWISE.py` — single executable project code file.
 2. `requirements.txt` — Python dependencies.
-3. `SHOPWISE_Project_Report.pdf` — project report.
+3. `DharmikPatel_ProjectReport.docx` — project report.
 4. `README.md` — project documentation and dataset source.
 
 ## How to run
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Run:
 
 ```bash
-python shopwise_analysis.py
+python DharmikPatel_SHOPWISE.py
 ```
 
 The script downloads the public dataset through `ucimlrepo`, performs cleaning and feature engineering, calculates business KPIs, creates visualizations, and trains two optional classification models.
@@ -125,9 +125,9 @@ Sakar, C. O. & Kastro, Y. (2018). *Online Shoppers Purchasing Intention Dataset*
 
 ```text
 SHOPWISE/
-├── shopwise_analysis.py
+├── DharmikPatel_SHOPWISE.py
 ├── requirements.txt
 ├── README.md
-├── SHOPWISE_Project_Report.pdf
+├── DharmikPatel_ProjectReport.docx
 └── outputs/                 # generated after execution
 ```
